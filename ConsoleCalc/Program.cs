@@ -19,7 +19,10 @@ namespace ConsoleCalc
             B = Convert.ToInt32(Console.ReadLine());
 
             C = A + B;
-            Console.Write($"Ответ сложения: {C} ");
+            Console.WriteLine($"Ответ сложения: {C} ");
+
+            C = A - B;
+            Console.WriteLine($"Ответ вычитания: {C} ");
         }
     }
 }
